@@ -1,0 +1,19 @@
+
+.footer-container {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.comment-section, .social-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.comment, .new-comment {
+  margin-bottom: 10px;
+}

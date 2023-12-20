@@ -1,0 +1,80 @@
+header,
+nav,
+ul,
+.auth-buttons {
+  margin: 0 auto;
+}
+
+header {
+  background: linear-gradient(to right, #111111, #7100b2);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ffd900;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.auth-buttons a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.auth-buttons a:hover {
+  color: #ffd900;
+}
+
+img.header-logo {
+  height: 30px;
+  width: auto;
+  border: none;
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  ul {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+    color: #ffffff;
+  }
+}
